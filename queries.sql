@@ -89,10 +89,23 @@ FROM employees
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
 
+-- Create a basic Table for Employess elgible for Retirement
 SELECT first_name, last_name
 INTO retirement_info
 FROM employees
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+-- Check Retirement Table
+SELECT * FROM retirement_info;
+-- Delete Basic Table 
+DROP TABLE retirement_info;
 
+-- Create New Table for Retiring Employees
+SELECT emp_no, first_name, last_name
+INTO retirement_info
+FROM employees
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+-- Check the Table
 SELECT * FROM retirement_info;
