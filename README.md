@@ -47,11 +47,14 @@ If we take a look at the Retirement Title Count table, it clearly shows how many
 the near future, that many roles will need to be filled by new hires. However, if we modify the table, and query only active employees who have all the same criteria, 
 we get a more accurate measure of the number of employees about to retire:
 
+# Query Output:
 ![titles_to_be_filled](https://user-images.githubusercontent.com/109875421/208349654-536402ce-aeb8-40d7-85ab-04dddcabf0f8.png)
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-This answer requires a new query, one to compile the count of all the eligible Mentors into a table grouped by title, to make a clear comparison to those employees who are retiring and will need their spots filled:
+This answer requires a new query, one to compile the count of all the eligible Mentors into a table grouped by title, to make a clear comparison to those employees who 
+are retiring and will need their spots filled:
 
+# Query Output
 ![eligible_mentor_count](https://user-images.githubusercontent.com/109875421/208350168-6bf137a7-eb50-44a0-9c63-1d519a43ff5b.png)
 
 Comparing this table to the more accurate retirement table, you can see that in a worst case scenario, where all of the retirement eligible employees quit at the same 
