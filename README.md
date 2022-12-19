@@ -54,7 +54,7 @@ Are there enough qualified, retirement-ready employees in the departments to men
 This answer requires a new query, one to compile the count of all the eligible Mentors into a table grouped by title, to make a clear comparison to those employees who 
 are retiring and will need their spots filled:
 
-# Query Output
+# Query Output:
 ![eligible_mentor_count](https://user-images.githubusercontent.com/109875421/208350168-6bf137a7-eb50-44a0-9c63-1d519a43ff5b.png)
 
 Comparing this table to the more accurate retirement table, you can see that in a worst case scenario, where all of the retirement eligible employees quit at the same 
