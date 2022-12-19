@@ -58,6 +58,6 @@ are retiring and will need their spots filled:
 ![eligible_mentor_count](https://user-images.githubusercontent.com/109875421/208350168-6bf137a7-eb50-44a0-9c63-1d519a43ff5b.png)
 
 Comparing this table to the more accurate retirement table, you can see that in a worst case scenario, where all of the retirement eligible employees quit at the same 
-time, the eligible mentors could take on new hires at around a 2:1 to 3:1 ratio for senior staff and senior engineers. The ratios then jump quite drastically to around 
-14:1 for engineers, 13:1 for staff, 20:1 for technique leaders, and finally 8:1 for assistant engineers. This, however, is highly unlikely to occur, and with the given 
+time, the eligible mentors could take on new hires at roughly a 2:1 to 3:1 ratio for senior staff and senior engineers. The ratios then jump quite drastically to 
+around 14:1 for engineers, 13:1 for staff, 20:1 for technique leaders, and finally 8:1 for assistant engineers. Although, this is unlikely to occur, and with the given 
 mentors, Pewlett-Hackard should have more than enough mentors to guide any new hires.
